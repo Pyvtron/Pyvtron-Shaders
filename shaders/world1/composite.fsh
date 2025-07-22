@@ -36,11 +36,11 @@ const int colortex6Format = R11F_G11F_B10F;
 
 const float sunPathRotation = -70;  
 
-const float shadowDistanceRenderMul = 1.0f; // [-1.0f 1.0f]
+const float shadowDistanceRenderMul = 1.0; // [-1.0 1.0]
 const int noiseTextureResolution = 1;
 
 #ifdef DEPTH_OF_FIELD
-const float centerDepthHalflife = 2.0f;	// [0.0f 0.2f 0.4f 0.6f 0.8f 1.0f 1.2f 1.4f 1.6f 1.8f 2.0f 2.2f 2.4f 2.6f 2.8f 3.0f] 
+const float centerDepthHalflife = 2.0f;	// [0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4 1.6 1.8 2.0 2.2 2.4 2.6 2.8 3.0] 
 #endif
 
 #ifdef DIRTY_LENS
