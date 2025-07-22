@@ -48,5 +48,3 @@ The author (Pyvtron) reserves the right to update, change, or replace this licen
 Videos and Content Creation
 
 You are allowed to record, stream, and upload videos, screenshots, or other media that showcase Pyvtron Shaders on platforms like YouTube, Twitch, TikTok, etc. You may also monetize these videos (e.g., through ads, memberships, or donations), as long as you do not provide direct shader download links in your video description or content. You must link to the official download page provided by Pyvtron. You do not distribute original or modified shader versions through your videos, comments, Discord, or external links. You give visible credit to Pyvtron Shaders in your video or description when showcasing the shader.
-
-If you break my rules I will immediately start with copyright or contact you.
