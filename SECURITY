@@ -5,24 +5,18 @@ If you discover a security vulnerability or issue, please report it responsibly 
 
 ## How to report a security issue
 
-you can contact me through our [issue tracker](https://github.com/pyvtron/pyvtron-shaders/issues) if you prefer not to report a confidential issue. Please label the issue as "Security" or "Security Issue".
+you can contact me through my [issue tracker](https://github.com/pyvtron/pyvtron-shaders/issues) if you prefer not to report a confidential issue. Please label the issue as "Security" or "Security Issue".
 
 ## What we need from your report
 
-To help us investigate and fix the issue quickly, please include:
+To help me investigate and fix the issue quickly, please include:
 
 - Description of the problem / vulnerability  
 - Steps to reproduce the issue  
 - Affected version(s) of Pyvtron Shaders  
 - Possible impact and risks  
 - Sample code or logs, if available
-
-## Our process
-
-- We acknowledge receipt of your report within 48 hours.  
-- We work on resolving the issue as soon as possible.  
-- Security fixes are published and documented in a timely manner.  
-- You may be credited as the discoverer of the vulnerability, either anonymously or by name.
+- Shader Loader/Api
 
 ## Code of conduct
 
