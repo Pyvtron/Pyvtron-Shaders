@@ -1,0 +1,237 @@
+#
+# Info 
+#
+
+screen.PYVTRON_SHADERS                                     = Pyvtron Shader
+
+#
+# Profile
+#
+
+profile.LITE                                               = §2Leicht
+profile.LOW                                                = §aNiedrig
+profile.MEDIUM                                             = §eMittel (Standard)
+profile.HIGH                                               = §6Hoch
+profile.VERY_HIGH                                          = §2Sehr Hoch
+profile.ULTRA                                              = §cUltra
+profile.EXTREME                                            = §4§kff §4Extrem §4§kff
+
+#
+# Optionen und Werte
+#
+
+screen.VOLUMETRIC_FOG                                      = Volumetrischer Nebel
+
+option.END_VOLUMETRIC_FOG                                  = End Volumetrischer Nebel
+value.END_VOLUMETRIC_FOG.false                             = Aus
+value.END_VOLUMETRIC_FOG.true                              = An
+option.END_FOG_STRENGTH                                    = End Nebel Stärke
+
+option.NETHER_VOLUMETRIC_FOG                               = Nether Volumetrischer Nebel
+value.NETHER_VOLUMETRIC_FOG.false                          = Aus
+value.NETHER_VOLUMETRIC_FOG.true                           = An
+option.NETHER_FOG_STRENGTH                                 = Nether Nebel Stärke
+
+option.VOLUMETRIC_FOG                                      = Volumetrischer Nebel
+value.VOLUMETRIC_FOG.false                                 = Aus
+value.VOLUMETRIC_FOG.true                                  = An
+option.FOG_STRENGTH                                        = Nebel Stärke
+
+screen.LIGHTING                                            = Beleuchtung
+
+screen.LIGHT_SOURCE                                        = Lichtquelle
+
+option.AMBIENT_LIGHT_BRIGHTNESS                            = Umgebungslicht Helligkeit
+option.SUNLIGHT_BRIGHTNESS                                 = Sonnenlicht Helligkeit
+option.sunPathRotation                                     = Sonnenrotation
+
+screen.VOLUMETRIC_LIGHT                                    = Volumetrisches Licht
+
+option.LIGHT_SCATTERING                                    = Volumetrisches Licht
+value.LIGHT_SCATTERING.0                                   = Aus
+value.LIGHT_SCATTERING.1                                   = An
+option.VOLUMETRIC_LIGHT_SAMPLES                            = Volumetrische Licht Samples
+option.VOLUMETRIC_LIGHT_RENDER_QUALITY                     = Volumetrische Licht Qualität
+option.VOLUMETRIC_LIGHT_RENDERDISTANCE                     = Volumetrische Licht Entfernung
+
+screen.TORCHLIGHT_TEMPERATURE                              = Fackel & Temperatur
+
+option.TEMPERATURE.comment                                 = Niedriger -> Kalt. Höher -> Warm.
+option.TEMPERATURE                                         = Farbtemperatur
+option.TORCHLIGHT_TEMPERATURE                              = Fackeltemperatur
+option.TORCHLIGHT_TEMPERATURE.comment                      = Niedriger = Kalt. Höher = Warm.
+
+screen.SHADOWS                                             = Schatten
+
+option.SOFT_SHADOWS                                        = Weiche Schatten
+option.FIX_SUNLIGHT_LEAK                                   = Alter Lichtleck Fix
+option.shadowMapResolution                                 = Schattenauflösung
+
+option.shadowDistance                                      = Schattendistanz
+
+value.shadowDistance.32.0                                  = 2 Chunks
+value.shadowDistance.48.0                                  = 3 Chunks
+value.shadowDistance.64.0                                  = 4 Chunks
+value.shadowDistance.80.0                                  = 5 Chunks
+value.shadowDistance.96.0                                  = 6 Chunks
+value.shadowDistance.112.0                                 = 7 Chunks
+value.shadowDistance.128.0                                 = 8 Chunks
+value.shadowDistance.144.0                                 = 9 Chunks
+value.shadowDistance.160.0                                 = 10 Chunks
+value.shadowDistance.176.0                                 = 11 Chunks
+value.shadowDistance.192.0                                 = 12 Chunks
+value.shadowDistance.208.0                                 = 13 Chunks
+value.shadowDistance.224.0                                 = 14 Chunks
+value.shadowDistance.240.0                                 = 15 Chunks
+value.shadowDistance.256.0                                 = 16 Chunks
+value.shadowDistance.272.0                                 = 17 Chunks
+value.shadowDistance.288.0                                 = 18 Chunks
+value.shadowDistance.304.0                                 = 19 Chunks
+value.shadowDistance.320.0                                 = 20 Chunks
+value.shadowDistance.336.0                                 = 21 Chunks
+value.shadowDistance.352.0                                 = 22 Chunks
+value.shadowDistance.368.0                                 = 23 Chunks
+value.shadowDistance.384.0                                 = 24 Chunks
+value.shadowDistance.512.0                                 = 32 Chunks
+value.shadowDistance.768.0                                 = 48 Chunks
+value.shadowDistance.1024.0                                = 64 Chunks
+value.shadowDistance.1536.0                                = 96 Chunks
+value.shadowDistance.2048.0                                = 128 Chunks
+value.shadowDistance.4096.0                                = 256 Chunks
+value.shadowDistance.8192.0                                = 512 Chunks
+
+option.SHADOW_BRIGHTNESS                                   = Schattenhelligkeit
+option.shadowDistanceRenderMul                             = Max Schattenreichweite
+value.shadowDistanceRenderMul.-1.0                         = Nicht optimiert
+value.shadowDistanceRenderMul.1.0                          = Optimiert
+
+screen.SURFACE                                             = Oberfläche
+
+option.TEXTURE_RESOLUTION                                  = Texturauflösung
+
+screen.RAIN                                                = Regen
+
+option.RAINDROP_REFRACTION                                 = Regentropfen Brechung
+
+screen.WATER                                               = Wasser
+
+option.WATER_REFRACTION_STRENGTH                           = Wasserbrechungsstärke
+option.WATER_WAVE_SPEED                                    = Wasserwellen Geschwindigkeit
+option.WATER_WAVE_SCALE                                    = Wasserwellen Skalierung
+option.WATER_WAVES_AMOUNT                                  = Anzahl Wasserwellen
+option.WATER_RED_AMOUNT                                    = Wasser Rotanteil
+option.WATER_GREEN_AMOUNT                                  = Wasser Grünanteil
+option.WATER_BLUE_AMOUNT                                   = Wasser Blauanteil
+
+screen.SSR                                                 = Bildschirmreflexionen (SSR)
+
+option.SSR_SAMPLES                                         = SSR Samples
+option.SSR_METHOD                                          = SSR Methode
+value.SSR_METHOD.0                                         = Reflektierter Vektor
+value.SSR_METHOD.1                                         = Raytrace
+
+screen.PBR_POM                                             = PBR & POM
+
+option.AUTO_BUMP                                           = Auto Bump
+option.PBR                                                 = PBR (Physikalisch basiertes Rendering)
+option.POM                                                 = POM (Parallax Occlusion Mapping)
+option.POM_QUALITY                                         = POM Qualität
+option.POM_DEPTH                                           = POM Tiefe
+option.TORCH_NORMALS                                       = Fackel Normal Mapping
+option.NORMAL_MAP_BUMPMULT                                 = Normal Map Bumpmult
+
+screen.POSTPROCESSING                                      = Nachbearbeitung
+
+option.EXPOSURE                                            = Belichtung
+option.CHROMATIC_ABERRATION                                = Chromatische Aberration
+option.FILM_GRAIN                                          = Filmkorn
+option.centerDepthHalflife                                 = Fokusgeschwindigkeit
+option.DEPTH_OF_FIELD                                      = Tiefenunschärfe
+option.DIRTY_LENS                                          = Verschmutztes Objektiv
+
+screen.TONEMAPING                                          = Tonemapping
+
+option.TONEMAPPING                                         = Tonemapping
+option.SATURATION                                          = Sättigung
+option.CONTRAST                                            = Kontrast
+option.WHITESCALE                                          = Weißanteil
+option.BRIGHTNESS                                          = Helligkeit
+
+screen.WIND                                                = Wind
+
+option.WINDY_TERRAIN                                       = Windiges Terrain
+option.WIND_SPEED                                          = Windgeschwindigkeit
+
+screen.BLOOM                                               = Bloom
+
+option.BLOOM                                               = Bloom
+option.BLOOM_SAMPLES                                       = Bloom Samples
+
+screen.VIGNETTE                                            = Vignette
+
+option.VIGNETTE                                            = Vignette
+option.VIGNETTE_STRENGTH                                   = Vignette Stärke
+option.VIGNETTE_SHARPNESS                                  = Vignette Schärfe
+
+screen.LENS_FLARE                                          = Linsenreflex
+
+option.LENS_FLARE                                          = Linsenreflex
+option.LENS_POWER                                          = Linsenstärke
+
+screen.BLUR                                                = Unschärfe
+
+option.DISTANCE_BLUR                                       = Distanzunschärfe
+option.MOTIONBLUR                                          = Bewegungsunschärfe
+option.MOTIONBLUR_AMOUNT                                   = Bewegungsunschärfe Stärke
+option.MOTION_BLUR_STRENGTH                                = Bewegungsunschärfe Stärke
+option.MOTION_BLUR_STRENGTH                                = Bewegungsunschärfe Stärke
+option.MOTION_BLUR_DITHER                                  = Bewegungsunschärfe Dither
+option.MOTION_BLUR_QUALITY                                 = Bewegungsunschärfe Qualität
+option.MOTION_BLUR_SUTTER_ANGLE                            = Bewegungsunschärfe Verschlusswinkel
+
+screen.HEATWAVE                                            = Hitzewellen
+
+option.NETHER_HEATWAVE                                     = Nether Hitzewelle
+option.NETHER_HEATWAVE_SPEED                               = Nether Hitzewelle Geschwindigkeit
+option.NETHER_HEATWAVE_SIZE                                = Nether Hitzewelle Größe
+option.HEATWAVE                                            = Hitzewelle
+option.HEATWAVE_SPEED                                      = Hitzewelle Geschwindigkeit
+option.HEATWAVE_SIZE                                       = Hitzewelle Größe
+option.HEATWAVE_SPEED                                      = Hitzewelle Geschwindigkeit
+option.END_HEATWAVE                                        = End Hitzewelle
+option.END_HEATWAVE_SPEED                                  = End Hitzewelle Geschwindigkeit
+option.END_HEATWAVE_SIZE                                   = End Hitzewelle Größe
+
+screen.DEPTH_OF_FIELD                                      = Tiefenunschärfe
+
+option.DEPTH_OF_FIELD_AMOUNT                               = Tiefenunschärfe Stärke
+option.DEPTH_OF_FIELD_RANGE                                = Tiefenunschärfe Bereich
+
+screen.UNDERWATER_FOG                                      = Unterwasser Nebel
+
+option.UNDERWATER_FOG_STRENGTH                             = Unterwasser Nebel Stärke
+option.UNDERWATER_FOG                                      = Unterwasser Nebel
+value.UNDERWATER_FOG.0                                     = Aus
+value.UNDERWATER_FOG.1                                     = An
+option.UNDERWATER_FOG_BRIGHTNESS                           = Unterwasser Nebel Helligkeit
+
+screen.OTHER                                               = Sonstiges
+
+option.OVERRIDE_FOLIAGE_COLOR                              = Pflanzenfarbe überschreiben
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

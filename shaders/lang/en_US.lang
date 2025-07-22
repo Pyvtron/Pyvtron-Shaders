@@ -1,0 +1,236 @@
+#
+# Info 
+#
+
+screen.PYVTRON_SHADERS                                     = Pyvtron Shaders
+
+#
+# Profiles
+#
+
+profile.LITE                                               = §2Lite
+profile.LOW                                                = §aLow
+profile.MEDIUM                                             = §eMedium (Standard)
+profile.HIGH                                               = §6High
+profile.VERY_HIGH                                          = §2Very High
+profile.ULTRA                                              = §cUltra
+profile.EXTREME                                            = §4§kff §4Extreme §4§kff
+
+#
+# Options and Values
+#
+
+screen.VOLUMETRIC_FOG                                      = Volumetric Fog
+
+option.END_VOLUMETRIC_FOG                                  = End Volumetric Fog
+value.END_VOLUMETRIC_FOG.false                             = Off
+value.END_VOLUMETRIC_FOG.true                              = On
+option.END_FOG_STRENGTH                                    = End Fog Strength
+
+option.NETHER_VOLUMETRIC_FOG                               = Nether Volumetric Fog
+value.NETHER_VOLUMETRIC_FOG.false                          = Off
+value.NETHER_VOLUMETRIC_FOG.true                           = On
+option.NETHER_FOG_STRENGTH                                 = Nether Fog Strength
+
+option.VOLUMETRIC_FOG                                      = Volumetric Fog
+value.VOLUMETRIC_FOG.false                                 = Off
+value.VOLUMETRIC_FOG.true                                  = On
+option.FOG_STRENGTH                                        = Fog Strength
+
+screen.LIGHTING                                            = Lighting
+
+screen.LIGHT_SOURCE                                        = Light Source
+
+option.AMBIENT_LIGHT_BRIGHTNESS                            = Ambient Light Brightness
+option.SUNLIGHT_BRIGHTNESS                                 = Sunlight Brightness
+option.sunPathRotation                                     = Sun Rotation
+
+screen.VOLUMETRIC_LIGHT                                    = Volumetric Light
+
+option.LIGHT_SCATTERING                                    = Volumetric Light
+value.LIGHT_SCATTERING.0                                   = Off
+value.LIGHT_SCATTERING.1                                   = On
+option.VOLUMETRIC_LIGHT_SAMPLES                            = Volumetric Light Samples
+option.VOLUMETRIC_LIGHT_RENDER_QUALITY                     = Volumetric Light Render - Quality
+option.VOLUMETRIC_LIGHT_RENDERDISTANCE                     = Volumetric Light Render - Distance
+
+screen.TORCHLIGHT_TEMPERATURE                              = Torchlight & Temperature
+
+option.TEMPERATURE.comment                                 = Lower -> Cold. Higher -> Warm.
+option.TEMPERATURE                                         = Color Temperature
+option.TORCHLIGHT_TEMPERATURE                              = Torchlight Temperature
+option.TORCHLIGHT_TEMPERATURE.comment                      = Lower = Cold. Higher = Warm.
+
+screen.SHADOWS                                             = Shadows
+
+option.SOFT_SHADOWS                                        = Soft Shadows
+option.FIX_SUNLIGHT_LEAK                                   = Old Light Leak Fix
+option.shadowMapResolution                                 = Shadow Resolution
+
+option.shadowDistance                                      = Shadow Distance
+
+value.shadowDistance.32.0                                  = 2 Chunks
+value.shadowDistance.48.0                                  = 3 Chunks
+value.shadowDistance.64.0                                  = 4 Chunks
+value.shadowDistance.80.0                                  = 5 Chunks
+value.shadowDistance.96.0                                  = 6 Chunks
+value.shadowDistance.112.0                                 = 7 Chunks
+value.shadowDistance.128.0                                 = 8 Chunks
+value.shadowDistance.144.0                                 = 9 Chunks
+value.shadowDistance.160.0                                 = 10 Chunks
+value.shadowDistance.176.0                                 = 11 Chunks
+value.shadowDistance.192.0                                 = 12 Chunks
+value.shadowDistance.208.0                                 = 13 Chunks
+value.shadowDistance.224.0                                 = 14 Chunks
+value.shadowDistance.240.0                                 = 15 Chunks
+value.shadowDistance.256.0                                 = 16 Chunks
+value.shadowDistance.272.0                                 = 17 Chunks
+value.shadowDistance.288.0                                 = 18 Chunks
+value.shadowDistance.304.0                                 = 19 Chunks
+value.shadowDistance.320.0                                 = 20 Chunks
+value.shadowDistance.336.0                                 = 21 Chunks
+value.shadowDistance.352.0                                 = 22 Chunks
+value.shadowDistance.368.0                                 = 23 Chunks
+value.shadowDistance.384.0                                 = 24 Chunks
+value.shadowDistance.512.0                                 = 32 Chunks
+value.shadowDistance.768.0                                 = 48 Chunks
+value.shadowDistance.1024.0                                = 64 Chunks
+value.shadowDistance.1536.0                                = 96 Chunks
+value.shadowDistance.2048.0                                = 128 Chunks
+value.shadowDistance.4096.0                                = 256 Chunks
+value.shadowDistance.8192.0                                = 512 Chunks
+
+option.SHADOW_BRIGHTNESS                                   = Shadow Brightness
+option.shadowDistanceRenderMul                             = Max Shadow Bounds
+value.shadowDistanceRenderMul.-1.0                         = Un-Optimized
+value.shadowDistanceRenderMul.1.0                          = Optimized
+
+screen.SURFACE                                             = Surface
+
+option.TEXTURE_RESOLUTION                                  = Texture Resolution
+
+screen.RAIN                                                = Rain
+
+option.RAINDROP_REFRACTION                                 = Raindrop Refraction
+
+screen.WATER                                               = Water
+
+option.WATER_REFRACTION_STRENGTH                           = Water Refraction Strength
+option.WATER_WAVE_SPEED                                    = Water Wave Speed
+option.WATER_WAVE_SCALE                                    = Water Wave Scale
+option.WATER_WAVES_AMOUNT                                  = Water Waves Amount
+option.WATER_RED_AMOUNT                                    = Water Red Amount
+option.WATER_GREEN_AMOUNT                                  = Water Green Amount
+option.WATER_BLUE_AMOUNT                                   = Water Blue Amount
+
+screen.SSR                                                 = Screen Space Reflections (SSR)
+
+option.SSR_SAMPLES                                         = SSR Samples
+option.SSR_METHOD                                          = SSR Method
+value.SSR_METHOD.0                                         = Reflected Vector
+value.SSR_METHOD.1                                         = Raytrace
+
+screen.PBR_POM                                             = PBR & POM
+
+option.AUTO_BUMP                                           = Auto Bump
+option.PBR                                                 = PBR (Physically Based Rendering)
+option.POM                                                 = POM (Parallax Occlusion Mapping)
+option.POM_QUALITY                                         = POM Quality
+option.POM_DEPTH                                           = POM Depth
+option.TORCH_NORMALS                                       = Torchlight Normal Mapping
+option.NORMAL_MAP_BUMPMULT                                 = Normal Map Bumpmult
+
+screen.POSTPROCESSING                                      = Post Processing
+
+option.EXPOSURE                                            = Exposure
+option.CHROMATIC_ABERRATION                                = Chromatic Aberration
+option.FILM_GRAIN                                          = Film Grain
+option.centerDepthHalflife                                 = Focus Speed
+option.DEPTH_OF_FIELD                                      = Depth of Field
+option.DIRTY_LENS                                          = Dirty Lens
+
+screen.TONEMAPING                                          = Tonemaping
+
+option.TONEMAPPING                                         = Tonemaping
+option.SATURATION                                          = Saturation
+option.CONTRAST                                            = Contrast
+option.WHITESCALE                                          = White Scale
+option.BRIGHTNESS                                          = Brightness
+
+screen.WIND                                                = Wind
+
+option.WINDY_TERRAIN                                       = Windy Terrain
+option.WIND_SPEED                                          = Wind Speed
+
+screen.BLOOM                                               = Bloom
+
+option.BLOOM                                               = Bloom
+option.BLOOM_SAMPLES                                       = Bloom Samples
+
+screen.VIGNETTE                                            = Vignette
+
+option.VIGNETTE                                            = Vignette
+option.VIGNETTE_STRENGTH                                   = Vignette Strength
+option.VIGNETTE_SHARPNESS                                  = Vignette Sharpness
+
+screen.LENS_FLARE                                          = Lens Flare
+
+option.LENS_FLARE                                          = Lens Flare
+option.LENS_POWER                                          = Lens Power
+
+screen.BLUR                                                = Blur
+
+option.DISTANCE_BLUR                                       = Distance Blur
+option.MOTIONBLUR                                          = Motionblur
+option.MOTIONBLUR_AMOUNT                                   = Motionblur Amount
+option.MOTION_BLUR_STRENGTH                                = Motionblur Strength
+option.MOTION_BLUR_STRENGTH                                = Motionblur Strength
+option.MOTION_BLUR_DITHER                                  = Motionblur Dither
+option.MOTION_BLUR_QUALITY                                 = Motionblur Quality
+option.MOTION_BLUR_SUTTER_ANGLE                            = Motionblur Sutter Angle
+
+screen.HEATWAVE                                            = Heatwaves
+
+option.NETHER_HEATWAVE                                     = Nether Heatwave
+option.NETHER_HEATWAVE_SPEED                               = Nether Heatwave Speed
+option.NETHER_HEATWAVE_SIZE                                = Nether Heatwave Size
+option.HEATWAVE                                            = Heatwave
+option.HEATWAVE_SPEED                                      = Heatwave Speed
+option.HEATWAVE_SIZE                                       = Heatwave Size
+option.HEATWAVE_SPEED                                      = Heatwave Speed
+option.END_HEATWAVE                                        = End Heatwave
+option.END_HEATWAVE_SPEED                                  = End Heatwave Speed
+option.END_HEATWAVE_SIZE                                   = End Heatwave Size
+
+screen.DEPTH_OF_FIELD                                      = Depth Of Field
+
+option.DEPTH_OF_FIELD_AMOUNT                               = Depth Of Field Amount
+option.DEPTH_OF_FIELD_RANGE                                = Depth Of Field Range
+
+screen.UNDERWATER_FOG                                      = Underwater Fog
+
+option.UNDERWATER_FOG_STRENGTH                             = Underwater Fog Strength
+option.UNDERWATER_FOG                                      = Underwater Fog
+value.UNDERWATER_FOG.0                                     = Off
+value.UNDERWATER_FOG.1                                     = On
+option.UNDERWATER_FOG_BRIGHTNESS                           = Underwater Fog Brightness
+
+screen.OTHER                                               = Other
+
+option.OVERRIDE_FOLIAGE_COLOR                              = Override Foliage Color
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
