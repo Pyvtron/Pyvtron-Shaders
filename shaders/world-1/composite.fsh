@@ -109,3 +109,4 @@ void main() {
         gl_FragData[1] = vec4(color * float(emissive), texture2D(colortex1, texcoord).a);
     #endif
 }
+
