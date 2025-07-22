@@ -1,7 +1,8 @@
-Terms and Conditions
+# Terms and Conditions
 
-© 2025 Pyvtron - All Rights Reserved
-Definitions
+### © 2025 Pyvtron - All Rights Reserved
+
+## Definitions
 
 "Copyright" also includes related rights covering other creative works such as graphics, textures, and code.
 
