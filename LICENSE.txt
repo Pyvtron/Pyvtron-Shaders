@@ -1,0 +1,52 @@
+Terms and Conditions
+
+© 2025 Pyvtron - All Rights Reserved
+Definitions
+
+"Copyright" also includes related rights covering other creative works such as graphics, textures, and code.
+
+"The Project" refers to the work titled "Pyvtron Shaders", created by Pyvtron.
+
+"You" refers to any person or organization who accesses, uses, modifies, or distributes this project.
+
+"Author" refers to the original creator of this project and its content, known as Pyvtron.
+
+"To modify" means to alter, adapt, or extend any part of the project. A modified project is called a "derivative work".
+
+"A covered work" is either the original version of the Pyvtron Shaders or any modified version based on it.
+
+"To distribute" means to make copies of the project available to others through any method, including websites, launchers, or file hosting platforms.
+
+"To publish" means making the project or any part of it publicly accessible or shareable.
+Distribution Rules
+
+You may not upload, rehost, or distribute the project or any of its files through your own download links. The project may only be shared using the official links provided by the author (Pyvtron). Using advertising-based, monetized, or pay-per-click download services (such as AdFly, Linkvertise, Boosters, etc.) is strictly prohibited. Including Pyvtron Shaders in shader collections, modpacks, resource packs, or websites requires explicit permission from the author.
+
+Minecraft servers are explicitly prohibited from uploading, bundling, or distributing Pyvtron Shaders in any form. This includes, but is not limited to, pre-installed shaders, shader installation systems, or any bundled shader lists within server files or server launchers. Minecraft server launchers, shader management tools, or any third-party software are strictly prohibited from uploading, bundling, embedding, or including Pyvtron Shaders in any form, whether the launcher is free or paid. There are no exceptions to this rule. Minecraft server operators may not upload, offer, or share Pyvtron Shaders as part of their service, whether publicly or privately. Shader websites that offer shader packs or content are permitted to upload Pyvtron Shaders, as long as they comply with all terms of this license, including the proper attribution to the author (Pyvtron).
+Private Modifications
+
+You are allowed to make private modifications of Pyvtron Shaders for personal use only. These private versions may not be published, shared, or distributed without following the rules outlined in Section 3.
+Public Modifications
+
+Publishing or sharing a modified version of Pyvtron Shaders is only allowed if the following conditions are met:
+
+    You must obtain explicit written permission from the author (Pyvtron).
+    Your version must include a meaningful amount of original work created by you.
+    Your modified version must be licensed under the same license as the original project.
+    You must give clear credit to the original author and project (Pyvtron / Pyvtron Shaders).
+    Monetization of any kind is strictly forbidden without direct permission from the author. This includes, but is not limited to, ads, sponsor links, paid versions, and donations related to the shader.
+
+Using Parts of the Project
+
+Using individual parts of Pyvtron Shaders (such as code, effects, or textures) in other projects is only allowed if you receive explicit permission from the author (Pyvtron). You must clearly credit the original author and the name "Pyvtron Shaders". Your project is not monetized in any way unless you have received permission.
+Disclaimer of Warranty
+
+Pyvtron Shaders is provided "as is", without any warranties or guarantees of functionality, performance, or compatibility. The author is not responsible for any damages or losses caused by using this project.
+License Changes
+
+The author (Pyvtron) reserves the right to update, change, or replace this license at any time. New license terms may apply to future versions of Pyvtron Shaders.
+Videos and Content Creation
+
+You are allowed to record, stream, and upload videos, screenshots, or other media that showcase Pyvtron Shaders on platforms like YouTube, Twitch, TikTok, etc. You may also monetize these videos (e.g., through ads, memberships, or donations), as long as you do not provide direct shader download links in your video description or content. You must link to the official download page provided by Pyvtron. You do not distribute original or modified shader versions through your videos, comments, Discord, or external links. You give visible credit to Pyvtron Shaders in your video or description when showcasing the shader.
+
+If you break my rules I will immediately start with copyright or contact you.
