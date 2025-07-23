@@ -91,18 +91,18 @@ void main() {
   position = shadowModelViewInverse * position;
 
   #ifdef WINDY_TERRAIN
-      position.xyz = calcMove(position.xyz, MC_SAPLINGS, true, 0.01, 5.0);		// Saplings
-      position.xyz = calcMove(position.xyz, MC_OAK_LEAVES, false, 0.005, 10.0);	// Oak leaves
-      position.xyz = calcMove(position.xyz, MC_GRASS, true, 0.05, 5.0);			// Grass
-      position.xyz = calcMove(position.xyz, MC_YELLOW_FLOWER, true, 0.01, 5.0);	// Yellow flower
-      position.xyz = calcMove(position.xyz, MC_RED_FLOWER, true, 0.01, 5.0);		// Red flower and others
-      position.xyz = calcMove(position.xyz, MC_WHEAT_CROPS, true, 0.02, 5.0);		// Wheat Crops
-      position.xyz = calcMove(position.xyz, MC_CARROTS, true, 0.01, 5.0);		// Carrots
-      position.xyz = calcMove(position.xyz, MC_POTATOES, true, 0.01, 5.0);		// Potatoes
-      position.xyz = calcMove(position.xyz, MC_ACACIA_LEAVES, false, 0.005, 10.0);// Acacia leaves
-      position.xyz = calcMove(position.xyz, MC_TALL_GRASS_LOWER, true, 0.01, 5.0);// Tall grass lower
-      position.xyz = calcMove(position.xyz, MC_TALL_GRASS_UPPER, false, 0.01, 5.0);// Tall grass upper
-      position.xyz = calcMove(position.xyz, MC_BEETROOT, true, 0.01, 5.0);		// Beetroot
+      position.xyz = calcMove(position.xyz, MC_SAPLINGS, true, 0.01, 5.0);
+      position.xyz = calcMove(position.xyz, MC_OAK_LEAVES, false, 0.005, 10.0);
+      position.xyz = calcMove(position.xyz, MC_GRASS, true, 0.05, 5.0);
+      position.xyz = calcMove(position.xyz, MC_YELLOW_FLOWER, true, 0.01, 5.0);
+      position.xyz = calcMove(position.xyz, MC_RED_FLOWER, true, 0.01, 5.0);
+      position.xyz = calcMove(position.xyz, MC_WHEAT_CROPS, true, 0.02, 5.0);
+      position.xyz = calcMove(position.xyz, MC_CARROTS, true, 0.01, 5.0);
+      position.xyz = calcMove(position.xyz, MC_POTATOES, true, 0.01, 5.0);
+      position.xyz = calcMove(position.xyz, MC_ACACIA_LEAVES, false, 0.005, 10.0);
+      position.xyz = calcMove(position.xyz, MC_TALL_GRASS_LOWER, true, 0.01, 5.0);
+      position.xyz = calcMove(position.xyz, MC_TALL_GRASS_UPPER, false, 0.01, 5.0);
+      position.xyz = calcMove(position.xyz, MC_BEETROOT, true, 0.01, 5.0);	
   #endif
 
   position = shadowProjection * shadowModelView * position;
