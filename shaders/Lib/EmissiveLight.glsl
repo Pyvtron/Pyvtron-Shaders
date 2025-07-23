@@ -13,7 +13,7 @@
 vec3 emissiveLight(vec3 clr, vec3 originalClr, bool emissive) {
     const float cover = 0.5;
     const float intensityBoost = 70.0;
-    const float exposure = 0.6; 
+    const float exposure = 0.1; 
     
     if (emissive) {
         // Calculate the luminance of the original color
