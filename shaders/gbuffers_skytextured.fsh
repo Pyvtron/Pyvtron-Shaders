@@ -61,6 +61,5 @@ void main() {
 
     baseColor.rgb /= MAX_COLOR_RANGE;
 
-    /* DRAWBUFFERS:0 */
     gl_FragData[0] = baseColor;
 }
