@@ -3,7 +3,7 @@
 /*
 ====================================================================================================
 
-    Copyright (C) 2025 Pyhtron
+    Copyright (C) 2025 Pyvtron Shaders - Pyvtron
 
     All Rights Reserved unless otherwise explicitly stated.
 
